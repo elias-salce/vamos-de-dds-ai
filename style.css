@@ -48,6 +48,7 @@ h1 {
   text-align: center;
   font-size: 3.2rem;
   font-weight: bolder;
+  filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.747));
 }
 
 h2 {
