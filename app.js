@@ -113,7 +113,7 @@ function pesquisar() {
   // Verifica se o campo de pesquisa está vazio e exibe uma mensagem
   if (!campoPesquisa || campoPesquisa == " ") {
     section.innerHTML =
-      '<div class="alerta"><strong><p>Ops, parece que faltou digitar o tema. Utilize o campo acima.</strong></p><p>Precisa de uma sugestão?<br>Sem problemas, experimente o botão "Surpreenda-me".</p></div>';
+      '<div class="alerta"><strong><p>⚠️ Ops, parece que faltou digitar o tema. Utilize o campo acima.</strong></p><p>✨ Precisa de uma sugestão?<br>Sem problemas, experimente o botão "Surpreenda-me".</p></div>';
     return;
   }
 
@@ -180,7 +180,7 @@ function pesquisar() {
   // Exibe uma mensagem se nenhum resultado for encontrado
   if (!resultados) {
     resultados =
-      '<div class="alerta"><p><strong>Poxa, parece que ainda não temos esse tema. <br>Que tal tentar digitar em outra(s) palavra(s), ou buscar por outro tema hoje?</strong></p> <p>Mas se quiser uma sugestão, você pode clicar no botão "✨ Surpreenda-me", quem sabe não é exatamente o que está procurando.</p></div>';
+      '<div class="alerta"><p><strong>⚠️ Poxa, parece que ainda não temos esse tema. <br>Que tal tentar digitar em outra(s) palavra(s), ou buscar por outro tema hoje?</strong></p> <p>✨ Mas se quiser uma sugestão, você pode clicar no botão "Surpreenda-me", quem sabe não é exatamente o que está procurando.</p></div>';
   }
 
   // // Atualiza o conteúdo da seção de resultados com os resultados formatados
