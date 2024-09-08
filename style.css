@@ -1,0 +1,267 @@
+/* Importa a fonte Montserrat do Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+@media print {
+  #botao-imprimir {
+    display: none; /* Oculta o botão durante a impressão */
+  }
+}
+
+/* Estilos Gerais */
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #2e2e2e;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header,
+main,
+footer {
+  padding: 15px;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #2980b9;
+  color: white;
+  text-align: center;
+  background-image: url("img/Gemini_Generated_Image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#logo {
+  height: 100px; /* Ajuste a altura conforme necessário */
+  vertical-align: middle;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  margin-top: 0rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: bolder;
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #ffffff;
+  background-color: #139497;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+h3,
+.sub-titulo {
+  margin-top: 0;
+  font-weight: 900;
+  font-size: 1.1rem;
+}
+
+#container-header-texto {
+  background-color: rgba(56, 56, 56, 0.596);
+  border: 0px;
+}
+
+/* Seção Principal */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 auto; /* Permite que o conteúdo principal cresça e ocupe o espaço disponível */
+}
+
+footer {
+  padding: 0px;
+  width: 100%;
+  font-size: 1rem;
+  background-color: #1c394b;
+  color: white;
+  text-align: center;
+}
+
+.container-pesquisa {
+  display: flex;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative; /* Para posicionar o botão e a lupa */
+  display: inline-block;
+}
+
+.icone-pesquisa {
+  position: absolute;
+  left: 12px; /* Ajuste conforme necessário */
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* Impede que a lupa interfira com o clique no input */
+}
+
+#campo-pesquisa {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  width: 260px;
+  padding-left: 40px; /* Espaço para a lupa */
+  padding-right: 70px; /* Espaço para o botão de limpar */
+}
+
+#botao-limpar {
+  position: absolute;
+  right: 2px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #f0f0f0;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  display: flex;
+  border-radius: 20px;
+  flex-grow: 5;
+  border: none;
+  padding: 12px;
+  font-family: MontSerrat, sans-serif;
+}
+
+button {
+  background-color: #139497;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Efeito suave na mudança de cor */
+}
+
+button:hover {
+  background-color: #eab227;
+}
+
+/* Resultados da Pesquisa */
+.resultados-pesquisa {
+  width: 80%;
+  max-width: 800px;
+}
+
+.item-resultado {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: end;
+}
+
+.item-resultado p,
+.item-resultado summary,
+.item-resultado span,
+.item-resultado details,
+.item-resultado .item-texto {
+  text-align: justify;
+}
+
+.item-resultado h2 {
+  margin-top: 0;
+}
+
+summary {
+  margin-bottom: 0.7rem;
+  text-decoration: underline;
+}
+
+.item-resultado details summary {
+  cursor: pointer;
+}
+
+.item-texto {
+  margin-top: 10px;
+}
+
+.expandir {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+/* .botao-pg-inteira {
+} */
+
+footer a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+/* Alertas */
+.alerta {
+  background-color: #fce780;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.frase {
+  background-color: #79cbce;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-weight: 600;
+}
+
+.sub-frase {
+  font-size: 0.9rem;
+  font-weight: lighter;
+  color: #05220e;
+}
+
+.container-resultado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 auto;
+}
+
+#contexto {
+  background-color: #eab227;
+  font-size: small;
+  align-content: center;
+  border-radius: 0px;
+  padding: 5px;
+  text-align: center;
+  font-weight: 400;
+}
+
+#contexto p {
+  margin: 5px;
+}
+
+/* Responsividade (Exemplo básico) */
+@media (max-width: 768px) {
+  .resultados-pesquisa {
+    width: 85%;
+  }
+}

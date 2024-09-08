@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    /> -->
+    <title>Vamos de DDS, AI?</title>
+  </head>
+
+  <body>
+    <header>
+      <div  id="container-header-texto">        
+        <h1><img src="img/Gemini_Generated_Iogo.png" alt="Logo do Site" id="logo">Vamos de DDS, AI?</h1>
+        <strong>
+          <p>
+            O seu local para achar o DDS que você precisa, com a parceria da IA.
+          </p>
+        </strong>
+        </div>      
+      <section>
+        <div class="container-pesquisa">
+          <span class="icone-pesquisa">💬</span>
+          <input
+            type="text"
+            placeholder='Digite o tema que deseja.'
+            id="campo-pesquisa"
+          />
+          <button
+            id="botao-limpar"
+            style="display: none"
+            title="Clique para limpar o campo de busca"
+          >
+            ❌
+          </button>
+        </div><br>
+        <button onclick="pesquisar()" title="Clique para pesquisar">
+          🔍 Pesquisar
+        </button>
+        <button
+          id="botao-surpeender"
+          title="Em dúvida sobre o tema? Deixa com a gente, clique e surpreenda-se"
+        >
+          ✨ Surpreenda-me
+        </button>
+      </section>
+
+    </header>
+    <main>
+        
+        <div class="container-resultado">
+          <section class="resultados-pesquisa" id="resultados-pesquisa">
+            <div class="item-resultado"></div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div id="contexto">
+        <p>
+          O DDS - Diálogo Diário de Segurança, ou como você preferir chamar
+          (Diálogo de Segurança, Minuto Segurança, etc.), deve ser uma breve
+          conversa sobre assuntos de saúde e segurança no trabalho.<br />É
+          aquele momento ideal para compartilhar informações, conscientizar
+          sobre os riscos e fortalecer a cultura de prevenção de acidentes.
+        </p>
+      </div>
+      <p>© 2024 - Vamos de DDS, AI? Todos os direitos reservados</p>
+      <p>
+        Todos os DDS aqui dispostos foram criados com ajuda da IA mas revisados e ajustados por um humano 🤖🤝🧑.<br>
+        Entre em contato pelo email:
+        <a href="mailto:esalce@outlook.com">esalce@outlook.com</a>
+      </p>
+    </footer>
+
+    <script src="dados.js"></script>
+    <script src="frases.js"></script>
+    <script src="app.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </body>
+</html>
