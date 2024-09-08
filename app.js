@@ -1,3 +1,7 @@
+function botaoVoltar() {
+  window.location.href = "index.html";
+}
+
 // Funçções para limpar campo de pesquisa
 const campoPesquisa = document.getElementById("campo-pesquisa");
 const botaoLimpar = document.getElementById("botao-limpar");
