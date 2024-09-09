@@ -8,6 +8,8 @@ Com um banho de conhecimento e inspiração obito durante a semana de Imersão D
 
 Com uma interface intuitiva e a com apoio da inteligência artificial, você pode encontrar por temas específicos ou se deixar surpreender com sugestões de DDS relevantes e prontos para usar!
 
+Mas vale ressaltar que este é um projeto de estudo, desenvolvido com o intuito de aprendizado e experimentação.
+
 ## 🚀 Funcionalidades Principais
 
 - **Pesquisa Inteligente:** Encontre rapidamente o DDS ideal buscando por palavras-chave relacionadas ao tema, objetivo ou conteúdo.
@@ -41,7 +43,7 @@ Com uma interface intuitiva e a com apoio da inteligência artificial, você pod
 
 ## 🤝  Contribuindo
 
-Adoraríamos receber sua contribuição para tornar o "Vamos de DDS, AI?" ainda melhor! Você pode:
+Adoraria receber sua contribuição para tornar o "Vamos de DDS, AI?" ainda melhor! Você pode:
 
 - **Reportar Bugs:** Encontrou algum problema? Abra uma _issue_ no GitHub detalhando o erro.
 - **Sugerir Melhorias:** Tem ideias para novas funcionalidades ou melhorias no código? Envie um _pull request_!
