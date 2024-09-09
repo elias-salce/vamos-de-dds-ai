@@ -33,11 +33,11 @@ Com uma interface intuitiva e a com apoio da inteligência artificial, você pod
 7. **Agora é só se preparar e caprichar na aplicação no DDS!**
 
 ## 👣  Próximos passos
- - **Desenvolver Seção no readme com mais detalhes sobre as etapas do desenvolvimento, como prompts utilizados, ferramentas escolhidas e lógica utilizada durante o desenvolvimento do projeto.***
- - **Aumentar base de dados dos DDS**
- - **Melhorar inferface nos dispositos móveis**
- - **Criar função de compartilhamento de DDS**
- - **Criar função de salvar DDS no formato de Google Docs**
+ - **Desenvolver Seção no readme com mais detalhes sobre as etapas do desenvolvimento, como prompts utilizados, ferramentas escolhidas e lógica utilizada durante o desenvolvimento do projeto.**
+ - **Aumentar base de dados dos DDS.**
+ - **Melhorar inferface nos dispositos móveis.**
+ - **Criar função de compartilhamento de DDS.**
+ - **Criar função de salvar DDS no formato de Google Docs.**
 
 ## 🤝  Contribuindo
 
