@@ -32,6 +32,13 @@ Com uma interface intuitiva e a com apoio da inteligência artificial, você pod
 6. **Clique para visualizar:** Acho o que procurar? Agora é visualizar o DDS completo, com todas as informações que você precisa. Podendo salvar em PDF ou imprimir (mas só se realmente for necessário, pense verde 🌱).
 7. **Agora é só se preparar e caprichar na aplicação no DDS!**
 
+## 👣  Próximos passos
+ - **Desenvolver Seção no readme com mais detalhes sobre as etapas do desenvolvimento, como prompts utilizados, ferramentas escolhidas e lógica utilizada durante o desenvolvimento do projeto.***
+ - **Aumentar base de dados dos DDS**
+ - **Melhorar inferface nos dispositos móveis**
+ - **Criar função de compartilhamento de DDS**
+ - **Criar função de salvar DDS no formato de Google Docs**
+
 ## 🤝  Contribuindo
 
 Adoraríamos receber sua contribuição para tornar o "Vamos de DDS, AI?" ainda melhor! Você pode:
